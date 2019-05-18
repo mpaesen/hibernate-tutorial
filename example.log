@@ -1,0 +1,361 @@
+DEBUG main org.jboss.logging - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+DEBUG main org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+DEBUG main org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+DEBUG main org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+INFO main org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+DEBUG main org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+DEBUG main org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+DEBUG main org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+DEBUG main org.hibernate.boot.cfgxml.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+DEBUG main org.hibernate.cfg.Configuration - Building session factory using internal StandardServiceRegistryBuilder
+DEBUG main org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+DEBUG main org.hibernate.cfg.Configuration - Building session factory using provided StandardServiceRegistry
+DEBUG main org.hibernate.cache.internal.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+DEBUG main org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+INFO main org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@932bc4a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@932bc4a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@932bc4a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@69997e9d
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@37654521
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4de4b452
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@7ea9e1e2
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@7ea9e1e2
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7ea9e1e2
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@4d02f94e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@4d02f94e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@4d02f94e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@14555e0a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@14555e0a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@14555e0a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@6f46426d
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@6f46426d
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6f46426d
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3e84448c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3e84448c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3e84448c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7e5afaa6
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@7e5afaa6
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7e5afaa6
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@581ac8a8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@581ac8a8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@581ac8a8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@67c33749
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@67c33749
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2a54a73f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2a54a73f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@4efc180e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@4efc180e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@156b88f5
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@71def8f8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@32ee6fee
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@32ee6fee
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@47faa49c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@47faa49c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@66d3eec0
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@66d3eec0
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@58695725
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@58695725
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@25fb8912
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@25fb8912
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@5ba3f27a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@5ba3f27a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@52af26ee
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@52af26ee
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@e15b7e8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@e15b7e8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@434a63ab
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@434a63ab
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@194bcebf
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@194bcebf
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@53ce1329
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@53ce1329
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@729d991e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@729d991e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@729d991e
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@32502377
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@21282ed8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@21282ed8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@21282ed8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@437da279
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@290222c1
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@290222c1
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@27462a88
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@27462a88
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@201a4587
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@201a4587
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@47d9a273
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@47d9a273
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2dc54ad4
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2dc54ad4
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4b0d79fc
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@29215f06
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@29215f06
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@29215f06
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@13fd2ccd
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@13fd2ccd
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@13fd2ccd
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@54e1c68b
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@273e7444
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@771a660
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@771a660
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@771a660
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@942a29c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@942a29c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@942a29c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@534a5a98
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@121314f7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@4d5650ae
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4d5650ae
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@51c668e3
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@7b36aa0c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7b36aa0c
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@229c6181
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@229c6181
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@791f145a
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@f09733f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@1ffaf86
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@4145bad8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4145bad8
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5ab956d7
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3646a422
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@750e2b97
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3e27aa33
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2e385cce
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2ddc9a9f
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@298a5e20
+DEBUG main org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2a7f1f10
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG main org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+WARN main org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+INFO main org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb_student_tracker?serverTimezone=UTC]
+INFO main org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=hbstudent, password=hbstudent}
+INFO main org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+DEBUG main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+INFO main org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+DEBUG main org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.11
+      major : 8
+      minor : 0
+DEBUG main org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.16 (Revision: 34cbc6bc61f72836e26327537a432d6db7c77de6)
+      major : 8
+      minor : 0
+DEBUG main org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 4.2
+INFO main org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+DEBUG main org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+DEBUG main org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+DEBUG main org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+DEBUG main org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@68ad99fe] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@485e36bc]
+DEBUG main org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.luv2code.hibernate.demo.entity.Student
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Import with entity name Student
+DEBUG main org.hibernate.cfg.annotations.EntityBinder - Bind entity com.luv2code.hibernate.demo.entity.Student on table student
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=id, insertable=true, updatable=true, unique=false}
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+DEBUG main org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.luv2code.hibernate.demo.entity.Student:id]
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG main org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, assigned, , ...)
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=email, insertable=true, updatable=true, unique=false}
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property email with lazy=false
+DEBUG main org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.luv2code.hibernate.demo.entity.Student:email]
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for email
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property email
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+DEBUG main org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.luv2code.hibernate.demo.entity.Student:firstName]
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for firstName
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property firstName
+DEBUG main org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(student), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+DEBUG main org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.luv2code.hibernate.demo.entity.Student:lastName]
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for lastName
+DEBUG main org.hibernate.cfg.annotations.PropertyBinder - Building property lastName
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for email
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for firstName
+DEBUG main org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for lastName
+DEBUG main org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [student]
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Building session factory
+DEBUG main org.hibernate.cfg.Settings - SessionFactory name : null
+DEBUG main org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+DEBUG main org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+DEBUG main org.hibernate.cfg.Settings - Statistics: disabled
+DEBUG main org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+DEBUG main org.hibernate.cfg.Settings - Default entity-mode: pojo
+DEBUG main org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+DEBUG main org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+DEBUG main org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+DEBUG main org.hibernate.cfg.Settings - Default batch fetch size: -1
+DEBUG main org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+DEBUG main org.hibernate.cfg.Settings - Default null ordering: NONE
+DEBUG main org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+DEBUG main org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+DEBUG main org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+DEBUG main org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+DEBUG main org.hibernate.cfg.Settings - Query language substitutions: {}
+DEBUG main org.hibernate.cfg.Settings - Named query checking : enabled
+DEBUG main org.hibernate.cfg.Settings - Second-level cache: disabled
+DEBUG main org.hibernate.cfg.Settings - Second-level query cache: disabled
+DEBUG main org.hibernate.cfg.Settings - Second-level query cache factory: null
+DEBUG main org.hibernate.cfg.Settings - Second-level cache region prefix: null
+DEBUG main org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+DEBUG main org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+DEBUG main org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+DEBUG main org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+DEBUG main org.hibernate.cfg.Settings - JDBC batch size: 15
+DEBUG main org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+DEBUG main org.hibernate.cfg.Settings - Scrollable result sets: enabled
+DEBUG main org.hibernate.cfg.Settings - Wrap result sets: disabled
+DEBUG main org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+DEBUG main org.hibernate.cfg.Settings - JDBC result set fetch size: null
+DEBUG main org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+DEBUG main org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+DEBUG main org.hibernate.cfg.Settings - JPA compliance - query : 
+DEBUG main org.hibernate.cfg.Settings - JPA compliance - closed-handling : 
+DEBUG main org.hibernate.cfg.Settings - JPA compliance - lists : 
+DEBUG main org.hibernate.cfg.Settings - JPA compliance - transactions : 
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {gopherProxySet=false, awt.toolkit=sun.lwawt.macosx.LWCToolkit, dialect=org.hibernate.dialect.MySQLDialect, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/Extensions/javax.annotation-api-1.3.2.jar:/Library/Java/Extensions/looks-2.1.4.jar:/Library/Java/Extensions/javax.activation-api-1.2.0.jar:/Library/Java/Extensions/TableLayout.jar:/Library/Java/Extensions/log4j-1.2.17.jar:/Library/Java/Extensions/org.hamcrest.core_1.3.0.v201303031735.jar:/Library/Java/Extensions/jaxb-api-2.3.1.jar:/Library/Java/Extensions/checkVAT.jar:/Library/Java/Extensions/javax.xml.soap-api-1.4.0.jar:/Library/Java/Extensions/jaxws-api-2.3.1.jar:/Library/Java/Extensions/itextpdf-5.3.4.jar:/Library/Java/Extensions/mysql-connector-java-5.1.16-bin.jar:/Library/Java/Extensions/jt400.jar:/Library/Java/Extensions/jcalendar-1.4.jar:/System/Library/Java/Extensions/MRJToolkit.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/bin:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/antlr-2.7.7.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/byte-buddy-1.9.10.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/classmate-1.3.4.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/dom4j-2.1.1.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/FastInfoset-1.2.15.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/hibernate-commons-annotations-5.1.0.Final.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/hibernate-core-5.4.2.Final.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/istack-commons-runtime-3.0.7.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/jandex-2.0.5.Final.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/javassist-3.24.0-GA.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/javax.activation-api-1.2.0.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/javax.persistence-api-2.2.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/jaxb-api-2.3.1.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/txw2-2.3.1.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/stax-ex-1.8.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/jaxb-runtime-2.3.1.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/jboss-logging-3.3.2.Final.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/Users/mpaesen/eclipse-workspace/hibernate-tutorial/lib/mysql-connector-java-8.0.16.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, user.timezone=, os.name=Mac OS X, java.vm.specification.version=1.8, current_session_context_class=thread, sun.java.launcher=SUN_STANDARD, user.country=BE, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib, sun.java.command=com.luv2code.hibernate.demo.CreateStudentDemo, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, sun.cpu.endian=little, user.home=/Users/mpaesen, user.language=nl, java.specification.vendor=Oracle Corporation, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre, file.separator=/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes, connection.password=hbstudent, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=1.8.0_65-b17, user.name=mpaesen, path.separator=:, hibernate.connection.username=****, os.version=10.14.4, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/hb_student_tracker?serverTimezone=UTC, connection.pool_size=1, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, hibernate.current_session_context_class=thread, show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/var/folders/09/2r1phkhx3jb7xjccnv13jw640000gp/T/, java.version=1.8.0_65, user.dir=/Users/mpaesen/eclipse-workspace/hibernate-tutorial, os.arch=x86_64, connection.username=hbstudent, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, connection.driver_class=com.mysql.cj.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@5ef8df1e, java.library.path=/Users/mpaesen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.65-b01, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeBig, java.ext.dirs=/Users/mpaesen/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/hb_student_tracker?serverTimezone=UTC, java.class.version=52.0, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16}
+DEBUG main org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+DEBUG main org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+DEBUG main org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@68ad99fe] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@2db2dd9d]
+DEBUG main org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.luv2code.hibernate.demo.entity.Student] is safe
+DEBUG main org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.luv2code.hibernate.demo.entity.Student
+DEBUG main org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [com.luv2code.hibernate.demo.entity.Student] is safe
+DEBUG main org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.luv2code.hibernate.demo.entity.Student
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.luv2code.hibernate.demo.entity.Student
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from student where id =?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select student_.id, student_.email as email2_0_, student_.first_name as first_na3_0_, student_.last_name as last_nam4_0_ from student student_ where student_.id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into student (email, first_name, last_name, id) values (?, ?, ?, ?)
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update student set email=?, first_name=?, last_name=? where id=?
+DEBUG main org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from student where id=?
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a03bb68]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : email
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.luv2code.hibernate.demo.entity.Student)
+    - Returns
+       - EntityReturnImpl(entity=com.luv2code.hibernate.demo.entity.Student, querySpaceUid=<gen:0>, path=com.luv2code.hibernate.demo.entity.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.luv2code.hibernate.demo.entity.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.luv2code.hibernate.demo.entity.Student [NONE]: select student0_.id as id1_0_0_, student0_.email as email2_0_0_, student0_.first_name as first_na3_0_0_, student0_.last_name as last_nam4_0_0_ from student student0_ where student0_.id=?
+DEBUG main org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a4d7f76]
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : email
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : firstName
+DEBUG main org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : lastName
+DEBUG main org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+DEBUG main org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+DEBUG main org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=com.luv2code.hibernate.demo.entity.Student)
+    - Returns
+       - EntityReturnImpl(entity=com.luv2code.hibernate.demo.entity.Student, querySpaceUid=<gen:0>, path=com.luv2code.hibernate.demo.entity.Student)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.luv2code.hibernate.demo.entity.Student)
+          - SQL table alias mapping - student0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+DEBUG main org.hibernate.loader.entity.plan.EntityLoader - Static select for entity com.luv2code.hibernate.demo.entity.Student [READ]: select student0_.id as id1_0_0_, student0_.email as email2_0_0_, student0_.first_name as first_na3_0_0_, student0_.last_name as last_nam4_0_0_ from student student0_ where student0_.id=?
+DEBUG main org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity com.luv2code.hibernate.demo.entity.Student: select student0_.id as id1_0_0_, student0_.email as email2_0_0_, student0_.first_name as first_na3_0_0_, student0_.last_name as last_nam4_0_0_ from student student0_ where student0_.id=?
+DEBUG main org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity com.luv2code.hibernate.demo.entity.Student: select student0_.id as id1_0_0_, student0_.email as email2_0_0_, student0_.first_name as first_na3_0_0_, student0_.last_name as last_nam4_0_0_ from student student0_ where student0_.id=?
+DEBUG main org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator - No actions specified; doing nothing
+DEBUG main org.hibernate.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+DEBUG main org.hibernate.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+DEBUG main org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7bde1f3a
+DEBUG main org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: f0b816ec-10a9-4203-9434-b8b4390f52c2 (<unnamed>)
+DEBUG main org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+DEBUG main org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+DEBUG main org.hibernate.engine.transaction.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+DEBUG main org.hibernate.engine.transaction.internal.TransactionImpl - begin
+DEBUG main org.hibernate.event.internal.AbstractSaveEventListener - Generated identifier: 0, using strategy: org.hibernate.id.Assigned
+DEBUG main org.hibernate.engine.transaction.internal.TransactionImpl - committing
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+DEBUG main org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+DEBUG main org.hibernate.internal.util.EntityPrinter - Listing entities:
+DEBUG main org.hibernate.internal.util.EntityPrinter - com.luv2code.hibernate.demo.entity.Student{firstName=Mathy, lastName=Paesen, id=0, email=mpaesen@gmail.com}
+DEBUG main org.hibernate.SQL - insert into student (email, first_name, last_name, id) values (?, ?, ?, ?)
+DEBUG main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - could not execute statement [n/a]
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '0' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:955)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1094)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1042)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1345)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1027)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3181)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3696)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1484)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:515)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3355)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2526)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at com.luv2code.hibernate.demo.CreateStudentDemo.main(CreateStudentDemo.java:34)
+WARN main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1062, SQLState: 23000
+ERROR main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '0' for key 'PRIMARY'
+DEBUG main org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.markRollbackOnly(TransactionImpl.java:206)
+	at org.hibernate.internal.AbstractSharedSessionContract.markForRollbackOnly(AbstractSharedSessionContract.java:381)
+	at org.hibernate.internal.ExceptionConverterImpl.handlePersistenceException(ExceptionConverterImpl.java:297)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:155)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1490)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:515)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3355)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2526)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at com.luv2code.hibernate.demo.CreateStudentDemo.main(CreateStudentDemo.java:34)
+DEBUG main org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl - JDBC transaction marked for rollback-only (exception provided for stack trace)
+java.lang.Exception: exception just for purpose of providing stack trace
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.markRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:314)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:187)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:104)
+	at com.luv2code.hibernate.demo.CreateStudentDemo.main(CreateStudentDemo.java:34)
+DEBUG main org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+DEBUG main org.hibernate.resource.transaction.internal.SynchronizationRegistryStandardImpl - Clearing local Synchronizations
+DEBUG main org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+ERROR main org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Duplicate entry '0' for key 'PRIMARY'
